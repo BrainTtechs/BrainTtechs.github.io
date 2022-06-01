@@ -121,6 +121,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.rotate90 {  
+  -webkit-transform:rotate(90deg);  
+  -moz-transform: rotate(90deg);  
+  -ms-transform: rotate(90deg);  
+  -o-transform: rotate(90deg);  
+  transform: rotate(90deg);  
+}  
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1270,6 +1278,7 @@ section {
   font-weight: bold;
   padding: 0;
   margin: 0 0 20px 0;
+  color: #e03a3c;
 }
 .blog .entry .entry-title a {
   color: #111111;
